@@ -110,7 +110,7 @@ modules:
        # destination: /usr/share
 #      - source: bluefin/system_files/dx
 #        destination: /
-      - source: files/system
+      - source: system/
         destination: /
   - type: justfiles
     validate: false
