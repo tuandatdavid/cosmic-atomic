@@ -63,6 +63,10 @@ modules:
           url: https://dl.flathub.org/repo/flathub.flatpakrepo
           name: flathub
           title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+        repo:
+          url: https://apt.pop-os.org/cosmic/cosmic.flatpakrepo
+          name: cosmic
+          title: "Cosmic flatpak repo"
         install:
           - net.nokyan.Resources # this Flatpak is appended to the install list
           - app.zen_browser.zen # this one too
