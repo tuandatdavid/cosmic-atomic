@@ -65,3 +65,4 @@ modules:
         - podman.socket
         - tailscaled.service
         - libvirtd.service
+  - type: signing
