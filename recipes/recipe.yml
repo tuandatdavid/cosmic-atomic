@@ -15,7 +15,7 @@ modules:
   - type: os-release
     properties:
       NAME: Cosmic Atomic
-      PRETTY_NAME: Fedora Cosmic Atomic (FROM Fedora cosmic-atomic)
+      PRETTY_NAME: Fedora Cosmic Atomic
   # copied from bluebuild base-image repository ^^
   - type: dnf
     repos:
