@@ -34,15 +34,6 @@ modules:
         - docker-buildx-plugin
         - docker-compose-plugin
         - rocm-smi
-        - qemu-char-spice
-        - qemu-device-display-virtio-gpu
-        - qemu-device-display-virtio-vga
-        - qemu-device-usb-redirect
-        - qemu-img
-        - qemu-system-x86-core
-        - qemu-user-binfmt
-        - qemu-user-static
-        - qemu
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
