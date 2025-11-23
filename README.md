@@ -1,9 +1,12 @@
 # cosmic-atomic &nbsp; [![bluebuild build badge](https://github.com/tuandatdavid/cosmic-atomic/actions/workflows/build.yml/badge.svg)](https://github.com/tuandatdavid/cosmic-atomic/actions/workflows/build.yml)
-
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
-After setup, it is recommended you update this README to describe your custom image.
+This basically copies everything around it to be cosmic but with dx.
 
+## Credits:
+- Sparkrai's bluebuild implementation of [Bazzite-dx](https://github.com/Sparkrai/bazzite-dx)
+- Bluebuild maintainers for their base [images](https://github.com/blue-build/base-images)
+- [Universal Blue](universal-blue.org)
 ## Installation
 
 > [!WARNING]  
