@@ -85,23 +85,23 @@ modules:
         - libvirtd.service
   - type: files
     files:
-      - source: bluefin/system_files/shared/usr/bin 
-        destination: /usr/bin
-      - source: bluefin/system_files/shared/usr/libexec
-        destination: /usr/libexec
-      - source: bluefin/system_files/shared/usr/lib/tmpfiles.d
-        destination: /usr/lib/tmpfiles.d
-      - source: bluefin/system_files/shared/usr/share/ublue-os/bluefin-cli
-        destination: /usr/share/ublue-os/bluefin-cli
-      - source: bluefin/system_files/shared/usr/share/ublue-os/homebrew
-        destination: /usr/share/ublue-os/homebrew
-      - source: bluefin/system_files/shared/usr/share/ublue-os/quadlets
-        destination: /usr/share/ublue-os/quadlets
+#      - source: bluefin/system_files/shared/usr/bin 
+#        destination: /usr/bin
+#      - source: bluefin/system_files/shared/usr/libexec
+#        destination: /usr/libexec
+#      - source: bluefin/system_files/shared/usr/lib/tmpfiles.d
+#        destination: /usr/lib/tmpfiles.d
+#      - source: bluefin/system_files/shared/usr/share/ublue-os/bluefin-cli
+#        destination: /usr/share/ublue-os/bluefin-cli
+#      - source: bluefin/system_files/shared/usr/share/ublue-os/homebrew
+#        destination: /usr/share/ublue-os/homebrew
+#      - source: bluefin/system_files/shared/usr/share/ublue-os/quadlets
+#        destination: /usr/share/ublue-os/quadlets
       # Avoid Bluefin branding
       # - source: bluefin/system_files/silverblue/usr/share:
        # destination: /usr/share
-      - source: bluefin/system_files/dx
-        destination: /
+#      - source: bluefin/system_files/dx
+#        destination: /
       - source: files/system
         destination: /
   - type: signing
