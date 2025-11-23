@@ -104,4 +104,10 @@ modules:
         destination: /
       - source: files/system
         destination: /
+  - type: justfiles
+    validate: true
+    include:
+      - bluefin-apps.just
+      - bluefin-system.just
+      - bluefin-tools.just
   - type: signing
