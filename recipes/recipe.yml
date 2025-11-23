@@ -27,12 +27,11 @@ modules:
         - python3-pip
         - tailscale
         - waydroid
-        - libimobiledevice
         - android-tools
-        - docker-ce
-        - docker-ce-cli
-        - docker-buildx-plugin
-        - docker-compose-plugin
+        - containerd
+        - docker-cli
+        - docker-buildx
+        - docker-compose
         - rocm-smi
     remove:
       packages:
