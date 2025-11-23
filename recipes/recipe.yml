@@ -115,7 +115,7 @@ modules:
   - type: justfiles
     validate: true
     include:
-      - bluefin-apps.just
+#      - bluefin-apps.just
       - bluefin-system.just
       - bluefin-tools.just
   - type: signing
