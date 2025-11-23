@@ -28,9 +28,9 @@ modules:
         - tailscale
         - waydroid
         - libimobiledevice
-      	- android-tools
-      	- docker-ce
-  	- docker-ce-cli
+        - android-tools
+        - docker-ce
+        - docker-ce-cli
         - docker-buildx-plugin
         - docker-compose-plugin
         - rocm-smi
