@@ -34,8 +34,8 @@ modules:
         - docker-compose
         - rocm-smi
         - bolt
-        - epson-inkjet-printer-escpr-1.8.6-1.x86_64.rpm
-        - epson-printer-utility-1.2.2-1.x86_64.rpm
+ #       - epson-inkjet-printer-escpr-1.8.6-1.x86_64.rpm
+ #       - epson-printer-utility-1.2.2-1.x86_64.rpm
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -117,8 +117,4 @@ modules:
         destination: /
   - type: justfiles
     validate: false
-    include:
-      - bluefin-apps.just
-      - bluefin-system.just
-      - bluefin-tools.just
   - type: signing
