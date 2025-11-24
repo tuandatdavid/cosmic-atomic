@@ -17,10 +17,11 @@ modules:
       NAME: Cosmic Atomic
       PRETTY_NAME: Fedora Cosmic Atomic
   # copied from bluebuild base-image repository ^^
-  - type: rpm-ostree
-    install:
-      - epson-inkjet-printer-escpr-1.8.6-1.x86_64.rpm
-      - epson-printer-utility-1.2.2-1.x86_64.rpm
+#  - type: rpm-ostree
+#    install:
+#      - epson-inkjet-printer-escpr-1.8.6-1.x86_64.rpm
+#      - epson-printer-utility-1.2.2-1.x86_64.rpm
+# fix later ^^^
   - type: dnf
     repos:
       copr:
