@@ -38,7 +38,7 @@ modules:
         - docker-buildx
         - docker-compose
         - rocm-smi
-        - bolt
+        - boltctl
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
