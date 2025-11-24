@@ -33,6 +33,7 @@ modules:
         - docker-buildx
         - docker-compose
         - rocm-smi
+        - bolt
         - epson-inkjet-printer-escpr-1.8.6-1.x86_64.rpm
         - epson-printer-utility-1.2.2-1.x86_64.rpm
     remove:
