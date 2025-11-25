@@ -26,6 +26,7 @@ modules:
     repos:
       copr:
         - rowanfr/fw-ectool
+        - deltragon/safeeyes
     install:
       packages:
         - fw-ectool
@@ -39,6 +40,8 @@ modules:
         - docker-compose
         - rocm-smi
         - boltctl
+        - python3-pywayland
+        - safeeyes
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
