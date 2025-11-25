@@ -42,6 +42,7 @@ modules:
         - boltctl
         - python3-pywayland
         - safeeyes
+        - btrfs-assistant
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
