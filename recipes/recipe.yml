@@ -78,14 +78,11 @@ modules:
           - app.zen_browser.zen # this one too
           - io.anytype.anytype # this one too
           - com.spotify.Client # gotta somehow figure out spicetify
-          - io.github.celluloid_player.Celluloid # look videos!!
           - io.github.shiftey.Desktop
           - com.vscodium.codium
-          - io.bassi.Amberol
           - me.iepure.devtoolbox
           - org.gnome.DejaDup
           - org.gnome.gitlab.somas.Apostrophe
-          - org.gnome.TextEditor
           - com.nextcloud.desktopclient.nextcloud
   - type: default-flatpaks
     configurations:
