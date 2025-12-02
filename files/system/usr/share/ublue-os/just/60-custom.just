@@ -196,9 +196,6 @@ devmode:
             echo "You are currently not on a developer image"
         fi
     fi
-
-alias shell := configure-shell
-
 # Switch to a different shell
 configure-shell ACTION="":
     #!/bin/bash
