@@ -121,6 +121,9 @@ modules:
 #        destination: /
       - source: system/
         destination: /
+  - type: initramfs
+    env:
+      DRACUT_NO_XATTR: '1'
   - type: justfiles
     source: ghcr.io/blue-build/modules:pr-498
     validate: false
@@ -130,4 +133,6 @@ modules:
       - cachy-kernel.sh
       - signkernel.sh
   - type: initramfs
+    env:
+      DRACUT_NO_XATTR: '1'
   - type: signing
