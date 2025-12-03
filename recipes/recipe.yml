@@ -27,6 +27,7 @@ modules:
       copr:
         - rowanfr/fw-ectool
         - deltragon/safeeyes
+        - lilay/topgrade 
     install:
       packages:
         - fw-ectool
@@ -93,13 +94,6 @@ modules:
           url: https://apt.pop-os.org/cosmic/cosmic.flatpakrepo
           name: cosmic
           title: "Cosmic flatpak repo"
-      - notify: false
-        scope: system
-        repo:
-          name: cosmic
-          title: COSMIC
-          url: https://apt.pop-os.org/cosmic/cosmic.flatpakrepo
-
   - type: systemd
     system:  
       enabled:
