@@ -38,4 +38,4 @@ generate-secureboot-key:
         -new -x509 -newkey rsa:2048 \
         -nodes -days 36500 -outform DER \
         -keyout ./MOK.priv \
-        -out ./files/base/etc/pki/akmods/certs/akmods-blue-build.der
+        -out ./files/system/etc/pki/akmods/certs/akmods-blue-build.der
