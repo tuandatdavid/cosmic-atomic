@@ -31,6 +31,13 @@ jobs:
           - recipe-cachy.yml
     steps:
       # the build is fully handled by the reusable github action
+
+      - name: Extract kernel key
+        shell: bash
+        env:
+          KERNEL_SIGNING_SECRET: ${{ secrets.KERNEL_SIGNING_SECRET }}
+        run: echo "${KERNEL_SIGNING_SECRET}" | base64 -d > MOK.priv
+    
       - name: Build Custom Image
         uses: blue-build/github-action@v1.8
         with:
