@@ -73,8 +73,6 @@ devmode:
         fi
     fi
 
-alias shell := configure-shell
-
 # Switch to a different shell
 configure-shell ACTION="":
     #!/bin/bash
@@ -99,8 +97,6 @@ configure-shell ACTION="":
       sudo usermod $USER --shell /usr/bin/$OPTION 
       printf "${USER}'s shell is now %s.\n" "$(cat /etc/passwd | grep ":$UID:" | cut '-d:' '-f7')"
     fi
-
-alias gnome-vrr := toggle-gnome-vrr
 
 # Enable or Disable Gnome-VRR
 toggle-gnome-vrr:
@@ -265,8 +261,6 @@ configure-grub:
 # # Rebase assistant
 # rebase-helper:
 #     @/usr/bin/ublue-rollback-helper
-
-# alias rollback-helper := rebase-helper
 
 # update-ng:
 #     echo "Note: This command doesn't work if you have locally layered packages" 
