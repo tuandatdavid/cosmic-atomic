@@ -123,4 +123,8 @@ modules:
         destination: /
   - type: justfiles
     validate: false
+  - type: script
+    scripts:
+      - cachy-kernel.sh
+  - type: initramfs
   - type: signing
