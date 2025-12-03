@@ -43,6 +43,7 @@ modules:
         - python3-pywayland
         - safeeyes
         - btrfs-assistant
+        - topgrade
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
