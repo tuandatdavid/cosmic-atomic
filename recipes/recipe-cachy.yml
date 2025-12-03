@@ -128,5 +128,6 @@ modules:
   - type: script
     scripts:
       - cachy-kernel.sh
+      - signkernel.sh
   - type: initramfs
   - type: signing
