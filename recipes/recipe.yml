@@ -87,12 +87,19 @@ modules:
           - com.nextcloud.desktopclient.nextcloud
   - type: default-flatpaks
     configurations:
-      - scope: system
       - notify: true
+        scope: system
         repo:
           url: https://apt.pop-os.org/cosmic/cosmic.flatpakrepo
           name: cosmic
           title: "Cosmic flatpak repo"
+      - notify: false
+        scope: system
+        repo:
+          name: cosmic
+          title: COSMIC
+          url: https://apt.pop-os.org/cosmic/cosmic.flatpakrepo
+
   - type: systemd
     system:  
       enabled:
