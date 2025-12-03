@@ -8,7 +8,7 @@ dnf -y remove \
 # Enable repos
 dnf -y copr enable bieszczaders/kernel-cachyos-lto
 
-dnf -y install --setopt=install_weak_deps=False \
+dnf -y install --setopt=install_weak_deps=false \
     kernel-cachyos-lto
 
 # Clean up repos from earlier
