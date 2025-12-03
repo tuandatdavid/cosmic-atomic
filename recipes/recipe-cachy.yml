@@ -122,7 +122,9 @@ modules:
       - source: system/
         destination: /
   - type: justfiles
+    source: ghcr.io/blue-build/modules:pr-498
     validate: false
+    install: true
   - type: script
     scripts:
       - cachy-kernel.sh
