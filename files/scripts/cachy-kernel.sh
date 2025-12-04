@@ -6,9 +6,9 @@ dnf -y remove \
     rm -r -f /usr/lib/modules/*
 
 # Enable repos
-dnf -y copr enable bieszczaders/kernel-cachyos-lto
+dnf5 -y copr enable bieszczaders/kernel-cachyos-lto
 
-dnf -y install --setopt=install_weak_deps=false \
+dnf5 -y install --setopt=install_weak_deps=true \
     kernel-cachyos-lto
 
 # Clean up repos from earlier
