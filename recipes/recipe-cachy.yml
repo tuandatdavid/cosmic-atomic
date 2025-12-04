@@ -45,6 +45,7 @@ modules:
         - safeeyes
         - btrfs-assistant
         - topgrade
+        - kmod
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
