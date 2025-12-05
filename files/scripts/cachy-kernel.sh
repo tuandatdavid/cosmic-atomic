@@ -8,8 +8,8 @@ dnf -y remove \
 # Enable repos
 dnf5 -y copr enable bieszczaders/kernel-cachyos-lto
 
-dnf5 -y install --setopt=install_weak_deps=true \
-    kernel-cachyos-lto
+dnf5 -y install --setopt=install_weak_deps=false \
+    kernel-cachyos-lto kernel-cachyos-lto-devel-matched
 
 # Clean up repos from earlier
 rm -f /etc/yum.repos.d/{*copr*}
