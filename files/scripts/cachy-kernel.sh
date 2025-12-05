@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-dnf -y remove \
+dnf5 -y remove \
     kernel \
     kernel-* &&
     rm -r -f /usr/lib/modules/*
