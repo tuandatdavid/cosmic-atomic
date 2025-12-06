@@ -122,16 +122,13 @@ modules:
 #        destination: /
       - source: system/
         destination: /
-  - type: initramfs
-    env:
-      DRACUT_NO_XATTR: '1'
   - type: justfiles
     source: ghcr.io/blue-build/modules:pr-498
     validate: false
     install: true
   - type: script
     scripts:
-      - cachy-kernel.sh
+#      - cachy-kernel.sh
       - signkernel.sh
   - type: initramfs
     env:
