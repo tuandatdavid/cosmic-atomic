@@ -24,6 +24,8 @@ modules:
 # fix later ^^^
   - type: dnf
     repos:
+      files:
+        - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
       copr:
         - rowanfr/fw-ectool
         - deltragon/safeeyes
