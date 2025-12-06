@@ -1,0 +1,9 @@
+{
+  "image-name": "Cosmic",
+  "image-flavor": "cosmic-atomic",
+  "image-vendor": "tuandatdavid",
+  "image-ref": "ostree-image-signed:docker://ghcr.io/tuandatdavid/",
+  "image-tag":"latest",
+  "base-image-name": "",
+  "fedora-version": "43"
+}
