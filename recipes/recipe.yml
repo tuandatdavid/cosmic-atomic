@@ -47,6 +47,7 @@ modules:
         - safeeyes
         - btrfs-assistant
         - topgrade
+        - fastfetch
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -57,7 +58,6 @@ modules:
       with-optional: true
       packages:
         - virtualization
-        - printing
   - type: fonts
     fonts:
       nerd-fonts:
