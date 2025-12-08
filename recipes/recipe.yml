@@ -57,6 +57,7 @@ modules:
       with-optional: true
       packages:
         - virtualization
+        - printing
   - type: fonts
     fonts:
       nerd-fonts:
