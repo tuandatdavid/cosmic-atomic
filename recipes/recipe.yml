@@ -88,7 +88,6 @@ modules:
           - me.iepure.devtoolbox
           - org.gnome.DejaDup
           - org.gnome.gitlab.somas.Apostrophe
-          - com.nextcloud.desktopclient.nextcloud
   - type: default-flatpaks
     configurations:
       - notify: true
@@ -125,7 +124,6 @@ modules:
       - source: system/
         destination: /
   - type: justfiles
-    source: ghcr.io/blue-build/modules:pr-498
     validate: false
     install: true
   - type: signing
