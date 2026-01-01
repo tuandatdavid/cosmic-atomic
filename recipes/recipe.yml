@@ -87,7 +87,6 @@ modules:
           - com.vscodium.codium
           - me.iepure.devtoolbox
           - org.gnome.DejaDup
-          - org.gnome.gitlab.somas.Apostrophe
   - type: default-flatpaks
     configurations:
       - notify: true
@@ -123,6 +122,9 @@ modules:
 #        destination: /
       - source: system/
         destination: /
+  - type: containerfile
+    snippets:
+      - RUN rpm -i --nodigest /sysroot/tmp/epson-inkjet-printer-escpr-1.8.6-1.x86_64.rpm
   - type: justfiles
     validate: false
     install: true
